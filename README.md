@@ -19,8 +19,9 @@ The **tmQM** dataset is also available for download from the [UiO Computational 
 - Data is split into three files compressed by gzip.
 
 ###### [tmQM/tmQM_y.csv](tmQM/tmQM_y.csv)
-- Contains the quantum chemical properties of the 108k TMCs computed at the DFT(TPSSh-D3BJ/def2-SVP) level.
+- Contains the quantum chemical properties of the 108k TMCs computed at the DFT(TPSSh-D3BJ/def2-SVP) level and their SMILES.
 - The DFT properties included are the electronic energy, dispersion energy, dipole moment, natural charge at the metal center, HOMO-LUMO gap, HOMO energy, and LUMO energy. The  polarizability is at the GFN2-xTB level of theory.
+- The SMILES are derived from Hückel theory as described in [this preprint](https://chemrxiv.org/engage/chemrxiv/article-details/676050a56dde43c9085b4ccd).
 
 ###### [tmQM/tmQM_X.q](tmQM/tmQM_X.q)
 - Contains the natural atomic charges of the 108k TMCs calculated at the DFT(TPSSh-D3BJ/def2-SVP) level.
