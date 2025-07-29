@@ -79,5 +79,6 @@ def read_tmQM(dir_name: str, xyz_name: str, y_name: str):
     all_topological_dist = read_y(y_path)
     print(f"Parsed {len(all_types)} blocks.")
     print("First atom in first block:", all_types[0][0], all_coords[0][0], all_charges[0], all_topological_dist[0].shape)
+    return all_types, all_coords, all_charges, all_topological_dist
     
     
